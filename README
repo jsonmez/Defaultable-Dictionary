@@ -1,0 +1,5 @@
+This project is a simple decorator for an IDictionary object and an extension method to make it easy to use.
+
+The DefaultableDictionary will allow for creating a wrapper around a dictionary that provides a default value when trying to access a key that does not exist or enumerating through all the values in an IDictionary.
+
+Example: var dictionary = new Dictionary<string, int>().WithDefaultValue(5);
