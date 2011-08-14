@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefaultableDictionary", "DefaultableDictionary\DefaultableDictionary.csproj", "{4366FAD5-6E81-40BF-BFC8-8F0F0E3F6FFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefaultableDictionaryTest", "DefaultableDictionaryTest\DefaultableDictionaryTest.csproj", "{E4BA62BE-4C6B-4D91-B5AC-F34A5023CD3A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D3E129E4-5D99-43F2-B124-CB247F9BA9DD}"
+	ProjectSection(SolutionItems) = preProject
+		DefaultableDictionary.vsmdi = DefaultableDictionary.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = DefaultableDictionary.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4366FAD5-6E81-40BF-BFC8-8F0F0E3F6FFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4366FAD5-6E81-40BF-BFC8-8F0F0E3F6FFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4366FAD5-6E81-40BF-BFC8-8F0F0E3F6FFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4366FAD5-6E81-40BF-BFC8-8F0F0E3F6FFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4BA62BE-4C6B-4D91-B5AC-F34A5023CD3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4BA62BE-4C6B-4D91-B5AC-F34A5023CD3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4BA62BE-4C6B-4D91-B5AC-F34A5023CD3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4BA62BE-4C6B-4D91-B5AC-F34A5023CD3A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
