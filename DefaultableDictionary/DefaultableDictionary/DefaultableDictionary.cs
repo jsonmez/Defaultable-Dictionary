@@ -92,11 +92,12 @@ namespace DefaultableDictionary
                 {
                     return dictionary[key];
                 }
-                catch (Exception)
+                catch (KeyNotFoundException)
                 {
                     return defaultValue;
                 }
             }
+
             set { dictionary[key] = value; }
         }
 
