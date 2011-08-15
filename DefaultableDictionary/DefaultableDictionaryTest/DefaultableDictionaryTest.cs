@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Text;
 using System.Collections.Generic;
 using System.Linq;
 using DefaultableDictionary;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using DefaultableDictionary;
 
 namespace DefaultableDictionaryTest
 {
@@ -18,6 +16,15 @@ namespace DefaultableDictionaryTest
             var value = dictionary["test"];
 
             Assert.AreEqual("default", value);
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(ArgumentNullException))]
+        public void when_trying_to_retrieve_an_entry_with_a_null_key_the_implementation_throws()
+        {
+            var dictionary = new DefaultableDictionary<string, string>(new Dictionary<string, string>(), "default");
+
+            var value = dictionary[null];
         }
 
         [TestMethod]
